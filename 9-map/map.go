@@ -54,4 +54,11 @@ func main() {
 	} else {
 		fmt.Println("item not found")
 	}
+
+	students := []map[string]string{
+		map[string]string{"name": "Didik Nur Hidayat", "prodi": "Informatika"},
+		map[string]string{"name": "M. Hafidurrahman", "prodi": "Informatika"},
+	}
+
+	fmt.Println(students[0]["name"])
 }
