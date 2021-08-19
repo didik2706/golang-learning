@@ -7,5 +7,5 @@ func main() {
 
 	fmt.Println(fruits[0])
 	fmt.Println(fruits[:2])
-	fmt.Println(fruits[2:][1])
+	fmt.Println(fruits[2:])
 }
